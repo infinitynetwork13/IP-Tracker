@@ -8,12 +8,5 @@ Infinity info network ip Tracker tool
 
 ### Installing
 ```ruby
-apt-get update
-apt-get upgrade
-apt-get install python
-apt-get install git
-pip install omero-marshal
-git clone https://github.com/infinitynetwork13/IP-Tracker.git
-cd IP-Tracker
-python main.py
+curl -sSL https://raw.githubusercontent.com/infinitynetwork13/IP-Tracker/bash/install.sh | bash
 ```
