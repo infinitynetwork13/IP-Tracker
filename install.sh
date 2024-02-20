@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt-get update
-apt-get upgrade
+apt-get update -y
+apt-get upgrade -y
 clear
 sleep 2
 if command -v python &> /dev/null; then
@@ -9,7 +9,7 @@ if command -v python &> /dev/null; then
 	python --version
 else
 	echo -e "\e[1;31mPython is not installed.\e[0m"
-	apt-get install python
+	apt-get install python -y
 fi
 if command -v wget &> /dev/null; then
 	echo -e "\e[1;32mwget is installed \e[0m"
