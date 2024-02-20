@@ -32,4 +32,4 @@ wget -O /data/data/com.termux/files/usr/bin/ip-info https://raw.githubuserconten
 clear
 chmod 777 /data/data/com.termux/files/usr/bin/ip-info
 clear
-ip-info
+echo -e "command ip-info"
